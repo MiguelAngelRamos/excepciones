@@ -3,9 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35219.272
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Excepciones", "Excepciones\Excepciones.csproj", "{D7C91D27-BE7B-461D-A6E1-9BECC2E4C517}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Excepciones", "Excepciones\Excepciones.csproj", "{D7C91D27-BE7B-461D-A6E1-9BECC2E4C517}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManejoExcepcionesWhile", "ManejoExcepcionesWhile\ManejoExcepcionesWhile.csproj", "{4873E41C-31A7-4D81-927C-F72E635DC8DA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ManejoExcepcionesWhile", "ManejoExcepcionesWhile\ManejoExcepcionesWhile.csproj", "{4873E41C-31A7-4D81-927C-F72E635DC8DA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Elementos de la solución", "Elementos de la solución", "{B9060C0A-AC95-4C62-9293-AD12879D8245}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManejoDeColecciones", "ManejoDeColecciones\ManejoDeColecciones.csproj", "{C78AD993-B421-4234-AA30-0A4A19DBB0AD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +28,10 @@ Global
 		{4873E41C-31A7-4D81-927C-F72E635DC8DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4873E41C-31A7-4D81-927C-F72E635DC8DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4873E41C-31A7-4D81-927C-F72E635DC8DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C78AD993-B421-4234-AA30-0A4A19DBB0AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C78AD993-B421-4234-AA30-0A4A19DBB0AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C78AD993-B421-4234-AA30-0A4A19DBB0AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C78AD993-B421-4234-AA30-0A4A19DBB0AD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
